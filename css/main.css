@@ -67,6 +67,11 @@ header h2 span {
     color: #2b2b2b;
 }
 
+/***** MAIN *****/
+main {
+    overflow: visible;
+}
+
 /***** ABOUT *****/
 #about .full-width {
     padding: 80px 0;
@@ -177,17 +182,17 @@ header h2 span {
 
 /***** WORK PAGE *****/
 
-#rogue-pickings {
-    margin: 50px;
+#rogue-pickings .full-width {
+    margin: 0px;
 }
 
 #rogue img {
     text-align: center;
     height: auto;
-    width: 1150px;
+    width: 1100px;
     background-size: contain;
 }
 
-#rogue-info {
+#rogue-info h2 {
     text-align: justify;
 }
